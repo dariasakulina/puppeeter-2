@@ -3,14 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "bdd": "cucumber-js --require features/step_definitions"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "cucumber": "^6.0.7",
     "jest": "^29.7.0",
     "jest-environment-puppeteer": "^11.0.0",
     "jest-puppeteer": "^11.0.0",
     "puppeteer": "^24.9.0"
+  },
+  "dependencies": {
+    "chai": "^5.2.0",
+    "npm": "^11.4.1"
   }
 }
